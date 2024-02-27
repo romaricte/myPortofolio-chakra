@@ -1,5 +1,5 @@
-import Icon from "@chakra-ui/icon";
-import { HStack } from "@chakra-ui/layout";
+
+import { HStack, Icon } from "@chakra-ui/react";
 import React from "react";
 import { FaFacebookF, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 

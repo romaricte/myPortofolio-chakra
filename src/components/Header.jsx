@@ -1,8 +1,6 @@
-import { Button } from "@chakra-ui/button";
-import { useColorMode } from "@chakra-ui/color-mode";
-import { Image } from "@chakra-ui/image";
-import { Circle, Stack, Flex, Box, Text } from "@chakra-ui/layout";
-import { useMediaQuery } from "@chakra-ui/media-query";
+
+import { Box, Button, Circle, Flex, Image, Stack, Text, useColorMode, useMediaQuery } from "@chakra-ui/react";
+
 import React from "react";
 
 const Header = () => {
@@ -38,11 +36,10 @@ const Header = () => {
             bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
             bgClip="text"
           >
-            Anton Francis Jeejo
+            Tene Fonkou Romaric
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            Mentor, Developer at Techieegy. Mentor by Day and Freelancer by
-            Night. Youtuber for students
+           Developer Fullstark
           </Text>
           <Button mt={8} colorScheme="blue">
             Hire Me
@@ -56,7 +53,7 @@ const Header = () => {
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="300px"
-          src="https://pbs.twimg.com/profile_images/1292721383546318850/KU8pErTW_400x400.jpg"
+          src="https://avatars.githubusercontent.com/u/124935988?s=400&u=94854252068877a1de6add9ad3be8e5bda212795&v=4"
           zIndex={1}
         />
       </Flex>
